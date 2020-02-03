@@ -1,2 +1,2 @@
-# Algoritmos-gen-ticos-Unity
+# Algoritmos-genéticos-Unity
 Generación de imágenes por algoritmos genéticos

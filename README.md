@@ -10,9 +10,9 @@ The variables that we could change were the **size of the chunk**, the **time** 
 
 In this configuration we can see how the algorithm is quite close to the final image, we have to take into account the resolution of the original image that is 300 x 300, so 50 x 50 chunks are not too small and the quality of the final image will be affected.
 
-![Bulbasur](https://github.com/JorgeBarcena3/Algoritmos-geneticos-Unity/blob/master/Build/AlgoritmosGeneticos_Data/StreamingAssets/50.15.20.10.png | width=100)
+![Bulbasur](https://github.com/JorgeBarcena3/Algoritmos-geneticos-Unity/blob/master/Build/AlgoritmosGeneticos_Data/StreamingAssets/50.15.20.10.png )
 
-![MonaLisa](https://github.com/JorgeBarcena3/Algoritmos-geneticos-Unity/blob/master/Build/AlgoritmosGeneticos_Data/StreamingAssets/50.15.20.10..png | width=100)
+![MonaLisa](https://github.com/JorgeBarcena3/Algoritmos-geneticos-Unity/blob/master/Build/AlgoritmosGeneticos_Data/StreamingAssets/50.15.20.10..png )
 
 ### 50x50 chunk - 2 seconds per chunk - 20 individuals - 10 spheres / individual
 

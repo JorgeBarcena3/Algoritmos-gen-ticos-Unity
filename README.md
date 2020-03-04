@@ -10,13 +10,25 @@ The variables that we could change were the **size of the chunk**, the **time** 
 
 In this configuration we can see how the algorithm is quite close to the final image, we have to take into account the resolution of the original image that is 300 x 300, so 50 x 50 chunks are not too small and the quality of the final image will be affected.
 
-![Bulbasur](https://github.com/JorgeBarcena3/Algoritmos-geneticos-Unity/blob/master/Build/AlgoritmosGeneticos_Data/StreamingAssets/50.15.20.10.png )
+<div>
+<img src="https://github.com/JorgeBarcena3/Algoritmos-geneticos-Unity/blob/master/Build/AlgoritmosGeneticos_Data/StreamingAssets/50.15.20.10.png" width="200" />
+<img src="https://github.com/JorgeBarcena3/Algoritmos-geneticos-Unity/blob/master/Build/AlgoritmosGeneticos_Data/StreamingAssets/50.15.20.10..png" width="200" />
+</div>
 
-![MonaLisa](https://github.com/JorgeBarcena3/Algoritmos-geneticos-Unity/blob/master/Build/AlgoritmosGeneticos_Data/StreamingAssets/50.15.20.10..png )
+
 
 ### 50x50 chunk - 2 seconds per chunk - 20 individuals - 10 spheres / individual
 
 With this configuration format we can see how the two seconds per chunk directly affects the final quality of the image, even so we can see how the silhouette is correct, but the final image is not close to the reference image.
 
+<div>
+<img src="https://github.com/JorgeBarcena3/Algoritmos-geneticos-Unity/blob/master/Build/AlgoritmosGeneticos_Data/StreamingAssets/50.2.20.10.png" width="200" />
+</div>
+
 ### 25x25 chunk - 8 seconds per chunk - 20 individuals - 10 spheres / individual
 After doing several tests we have obtained that this is the most optimal configuration to execute the algorithm with satisfaction is this configuration, we can see how the final result is quite true to reality. It also depends a lot on the quality of the original image, the more quality, the longer the final image will be generated. These images have taken between 20 and 20 minutes to generate, and the result is quite faithful. Below is a replica of the monalisa, but with an original image size of 1000 x 1000 pixels, it is a result of this final image is quite good, but the algorithm has taken 2 hours to generate the visible part of the image.
+
+<div>
+<img src="https://github.com/JorgeBarcena3/Algoritmos-geneticos-Unity/blob/master/Build/AlgoritmosGeneticos_Data/StreamingAssets/25.8.20.10.1.png" width="200" />
+<img src="https://github.com/JorgeBarcena3/Algoritmos-geneticos-Unity/blob/master/Build/AlgoritmosGeneticos_Data/StreamingAssets/25.2.20.10.2.png" width="200" />
+</div>
